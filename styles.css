@@ -84,6 +84,7 @@ html {
 }
 
 body {
+   padding-top: 60px;
    font-family: var(--font-body);
    color: var(--color-text);
    font-size: var(--font-size-body);
@@ -571,6 +572,23 @@ img {
    margin: var(--spacing-md);
 }
 
+.articles-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: var(--grid-gap-md);
+   max-width: var(--max-width-content);
+   margin: 0 auto;
+   text-align: center;
+}
+
+.article-small {
+   margin: 0;
+   max-width: none;
+}
+
+.article-small .article-card-footer {
+   justify-content: center;
+}
 
 /* ==============================================
    PODCAST SECTION
@@ -625,12 +643,21 @@ img {
       flex-direction: column;
       justify-content: space-between;
       gap: 3em;
-      padding: 160px 80px;
+      padding: 80px 20px;
    }
    .page-header .main-nav {
       /* flex-direction: column; */
    }
+
+   .hero-section .hero-content {
+      text-align: center;
+   }
+
+   .hero-buttons {justify-content: center;}
    
+   .about-section .stats-row .articles-grid {
+      grid-template-columns: 1fr;
+   }
 }
 
 @media (max-width: 480px) {
