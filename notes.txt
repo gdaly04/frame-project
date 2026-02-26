@@ -22,3 +22,7 @@ Google Fonts (https://fonts.google.com/)
 Font Awesome CDN (https://cdnjs.com/libraries/font-awesome)
 Font Awesome Icons (https://fontawesome.com/)
 Free Stock Videos (https://pixabay.com/)
+
+Design Ideas
+https://www.awwards.com/
+https://dribble.com/
